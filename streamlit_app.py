@@ -9,5 +9,3 @@ with col1:
 with col2:
    st.header("Chat")
    prompt = st.chat_input("Talk to the Doc!!!")
-   if prompt:
-      st.write(f"User has sent the following prompt: {prompt}")
